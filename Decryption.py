@@ -8,7 +8,6 @@ human_input = input("What is the key?  ")
 human_input = list(human_input)
 key = human_input.copy()
 
-
 cipher_text = input("Enter a message to decrypt: ")
 plain_text = ""
 
