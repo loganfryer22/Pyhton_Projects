@@ -57,4 +57,6 @@ def rock_paper_scissors():
     else:  # If the game ended normally
         print("Thanks for playing!")
         print(f"it took {player_counter} attempt(s)")  # Print the number of attempts it took the player to win
+        
+rock_paper_scissors()  # runs the program
 
