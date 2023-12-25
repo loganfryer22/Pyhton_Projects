@@ -33,7 +33,7 @@ def index_search():  # Function to search for a word in a file
             print(output)  # Print False
 
         if input("Another one? any key = yes, no = quit ").lower() == 'no' or 'n':  # Ask the user if they want to
-                                                                                    # search again
+            # search again
             repeat = False  # If they enter 'no', end the loop
 
 
@@ -61,3 +61,5 @@ def format_name_age():  # Function to format the user's name and age
     age = input("What is your age?   ")  # Get the user's age
 
     print("Name is {} {} and I am {} years old".format(first_name, last_name, age))  # Print the formatted string
+
+
